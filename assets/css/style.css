@@ -1,0 +1,41 @@
+.header{
+    background-color: white;
+    padding: 10px;
+    border-bottom: solid 2px darkgrey;
+    height: 35px;
+}
+
+.title{
+    float:left;
+    clear: both;
+    
+}
+
+h1{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+    height: 35px;
+    width: 200px;
+    margin: 0px;
+    float: left;
+}
+
+.nav{
+    float: right;
+    clear: inherit;
+    border: solid 1px;
+    margin: 0px;
+    padding: 5px;
+    color: darkgrey;
+}
+
+a:hover{
+    color: lightgrey;
+
+}
+
+img{
+    margin: 10px;
+    float: left;
+}
