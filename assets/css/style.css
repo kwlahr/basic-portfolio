@@ -1,47 +1,65 @@
+body{
+    background-image: linear-gradient(#dbdbdb, #3A3A3A);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 50%;
+    align-content: center;
+}
+
+
 .header{
     background-color: white;
-    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
     border-bottom: solid 2px darkgrey;
     height: 35px;
+    width: 100%;
 }
 
 section{
+    background-color: white;
+    color: darkslategray;
     border: solid 1px darkgrey;
     padding: 20px;
     align-content: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 20px;
+    text-align: left;
+
 }
 
-.title{
-    float:left;
-    clear: both;
-    
-}
 
 h1{
     background-color: darkcyan;
     color: white;
     padding: 5px;
+    padding-left: 35px;
+    padding-bottom: 15px;
     height: 35px;
-    width: 200px;
+    width: 250px;
     margin: 0px;
     float: left;
+    font-size: 40px;
 }
 
 .nav{
     float: right;
     clear: inherit;
-    margin: 0px;
+    margin: 10px;
+    margin-right: 30px;
     padding: 5px;
-    color: darkgrey;
+    padding-top: 15px;
+    color: darkcyan;
     text-decoration: none;
     font-size: 20px;
 }
 
 a:hover{
-    color: lightgrey;
+    color: darkslategray;
 
 }
 
