@@ -36,17 +36,20 @@ img{
 }
 
 section{
+    position: relative;
+    left: 17%;
     background-color: white;
     color: darkslategray;
     border: solid 1px #dddddd;
     padding: 20px;
     align-content: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    /* margin-left: 120px;
+    margin-right: 120px; */
     /* width: 960px; */
     margin-top: 20px;
     text-align: left;
     clear: both;
+    width: 960px;
 }
 
 body{
@@ -80,6 +83,46 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2, h3, h4, {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: teal;
+    padding: 5px;
+    width:150px;
+    text-align: center;
+    align-content: center;
+    margin: 0px;
+}
+
+.container{
+    position: relative;
+    width: 200px;
+
+}
+
+.container:hover{
+    opacity: .8;
+    transition: 0.3s;
+}
+
+.centered {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
 
 a:hover{
     color: darkslategray;
@@ -102,10 +145,6 @@ footer{
 
 }
 
-h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: teal;
-}
 
 p, nav, footer{
     font-family: Arial, Helvetica, sans-serif;
